@@ -1,0 +1,69 @@
+# =========================
+# Sistema Operacional e Geral
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs e Editores (VS Code, IntelliJ, etc)
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Java & Spring Boot
+# =========================
+target/
+build/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+# Ignorar arquivos temporários do Maven/Gradle
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+.gradle/
+# NÃO ignorar os wrappers
+!/.mvn/wrapper/maven-wrapper.jar
+!gradle-wrapper.jar
+
+# =========================
+# JavaScript, TypeScript e Angular
+# =========================
+node_modules/
+dist/
+dist-server/
+out/
+out-tsc/
+.angular/
+coverage/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# =========================
+# Laravel & PHP
+# =========================
+vendor/
+public/build
+public/hot
+public/storage
+storage/*.key
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
